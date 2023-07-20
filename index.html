@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!--MENU ENCABEZADO-->
+    <div class="header-container">
+        <header>
+            <div class="logo">
+                <a href="#">Jorge</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="selection()">INICIO</a></li>
+                    <li><a href="#aboutme" onclick="selection()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="selection()">HABILIDADES</a></li>
+                    <li><a href="#cv" onclick="selection()">CURRICULUM</a></li>
+                    <li><a href="#archive" onclick="selection()">PORTAFOLIO</a></li>
+                    <li><a href="#contact" onclick="selection()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showOrHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>  
+        </header>
+    </div>
+
+    <!-- SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="banner-container">
+                <div class="img-container">
+                    <img src="img/wmbb.png" alt="">
+                </div>
+                <h1>JORGE SALAS</h1>
+                <h2>Ing. de Redes y Comunicaciones - Desarrollador React - Experto en UI/UX</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+    </section>
+
+    <!-- SECCION SOBRE MI-->
+    <section id="aboutme" class="aboutme">
+        <div class="seccion-container">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Jorge Salas</span>. Amante de la programación, egresado de ACADEMLO como Desarrollador FullStack. Mejorando los conocimientos que tengo a través de la documentación y la práctica. Entusiasmado en aprender nuevas tecnologías.</p>
+            
+            <div class="arrow">
+                <!-- informacion personal-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <Strong>Email</Strong>
+                            jorge.salas.sheron@gmail.com
+                        </li>
+                        <li>
+                            <Strong>Linkedin</Strong>
+                            https://www.linkedin.com/in/jorgeantoniosalas/
+                        </li>
+                        <li>
+                            <Strong>Estado Civil</Strong>
+                            En una relación <i class="fa-solid fa-heart"></i>
+                        </li>
+                        <li>
+                            <Strong>Localización</Strong>
+                            Lima - Perú
+                        </li>
+                        <li>
+                            <Strong>Cargo</Strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+
+                <!-- INTERESES-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="interests-container">
+                        <div class="interests">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES-->
+    <section class="skills" id="skills">
+        <div class="seccion-container">
+            <h2>Habilidades</h2>
+            <div class="arrow">
+                <!-- HABILIDADES TECNICAS-->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>NodeJS</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PostgreSQL - MySQL</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HABILIDADES PROFESIONALES-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Manejo de Proyectos</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM-->
+    <section id="cv" class="cv">
+        <div class="seccion-container">
+            <h2>Hoja de Vida</h2>
+            <div class="arrow">
+                <div class="col left">
+                    <h3>Educación</h3>
+                    <div class="item le">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="house">Universidad de Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="leconnector">
+                            <div class="lecircle"></div>
+                        </div>
+                    </div>
+                    <div class="item le">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="house">Universidad de Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="leconnector">
+                            <div class="lecircle"></div>
+                        </div>
+                    </div>
+                    <div class="item le">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="house">Universidad de Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="leconnector">
+                            <div class="lecircle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item ri">
+                        <h4>Monitor de Calidad</h4>
+                        <span class="house">Dynamicall - WEBHELP</span>
+                        <span class="date">2019 - 2022</span>
+                        <p>Evaluación de personal antiguo, nuevo y evaluaciones cruzadas. - Feedbacks personalizados por asesor. - Feedbacks grupales continuos para actualizaciones o modificaciones en el proceso de atención. - Seguimiento y manejo de indicadores de Equipos de gestión de 18 a 22 miembros. - Charlas introductorias para agentes nuevos durante su proceso inicial de capacitación - Elaboración de informes sobre errores reincidentes.</p>
+                        <div class="riconnector">
+                            <div class="ricircle"></div>
+                        </div>
+                    </div>
+                    <div class="item ri">
+                        <h4>Front Developer</h4>
+                        <span class="house">Nombre de Compañía</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="riconnector">
+                            <div class="ricircle"></div>
+                        </div>
+                    </div>
+                    <div class="item ri">
+                        <h4>Front Developer</h4>
+                        <span class="house">Nombre de Compañía</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="riconnector">
+                            <div class="ricircle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO-->
+    <section id="archive" class="archive">
+        <div class="seccion-container">
+            <h2>PORTAFOLIO</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO-->
+    <section id="contact" class="contact">
+        <div class="seccion-container">
+            <h2>CONTACTO</h2>
+            <div class="arrow">
+                <!-- formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- MAP-->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Lima, Perú
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: jorge.salas.sheron@gmail.com
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
